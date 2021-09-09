@@ -42,8 +42,8 @@ def check_quiz(text, keywords_correct):
 
 
 #環境変数取得
-YOUR_CHANNEL_ACCESS_TOKEN = "<作成したチャネルのアクセストークンを入力>"
-YOUR_CHANNEL_SECRET = "<作成したチャネルのChannel secretを入力>"
+YOUR_CHANNEL_ACCESS_TOKEN = "<rhJNkiGIAE3Oc4Y7qWpeuM7aTid5lRzQc7Gb1tF3955mQc4ME5ckpimQQo80H1/8ID6EIfnUll9YQngaJ5vS2xvZucQipyNzYnKGkuXVtUk/bZVHeUgcAUAKJDK0o+j8fH0IwRZVk1AMHczdByzQlQdB04t89/1O/w1cDnyilFU=>"
+YOUR_CHANNEL_SECRET = "<6eb44403d7eabc8d30a44a3da8ede9ff>"
 
 line_bot_api = LineBotApi(YOUR_CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(YOUR_CHANNEL_SECRET)
